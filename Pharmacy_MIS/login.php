@@ -121,7 +121,7 @@
                 <div class="w3-container w3-padding-16">Authentication</div>
         </div>
 
-        <form onsubmit="return validate();" name="login_form" class="w3-container w3-indigo" action='<?php echo htmlspecialchars("home.php");?>' method="post">
+        <form onsubmit="return validate();" name="login_form" class="w3-container w3-indigo" action='<?php echo htmlspecialchars("login.php");?>' method="post">
             <p class="w3-padding-16">
                 <input autocomplete="off" id="user" onfocus="clean(this)" class="w3-input w3-border w3-round-large" type="text" name="username"
                 placeholder="| Username" style="padding-left:40px;">
