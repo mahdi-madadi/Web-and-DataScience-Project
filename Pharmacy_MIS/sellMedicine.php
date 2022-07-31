@@ -131,8 +131,7 @@ mysqli_close($conn);
                 <input type="text" name="amount" id="amount" class="w3-input w3-round w3-border w3-margin-bottom">
                 Price
                 <input type="text" name="price" id="price" class="w3-input w3-round w3-border w3-margin-bottom">
-                <a href="home.php" class="w3-mobile w3-button w3-round w3-purple w3-left">Back Home</a>
-                <input type="submit" name="submit" class="w3-mobile w3-button w3-right w3-indigo w3-round w3-mobile" value="Save">
+                <input type="submit" name="submit" class="w3-mobile w3-button w3-left w3-indigo w3-round w3-mobile" value="Save">
                 <br>
                 <br>
                 Total Price
